@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Js</title>
+    </head>
+    <body>
+<script>  
+function validate_password(){
+ 
+ var pass = document.getElementById('pass').value;
+ var confirm_pass = document.getElementById('confirm_pass').value;
+ if (pass != confirm_pass) {
+     document.getElementById('message').style.color = 'purple';
+     document.getElementById('message').innerHTML
+       = 'Use same password';
+ } 
+ else {
+     document.getElementById('message').style.color = 'green';
+     document.getElementById('message').innerHTML =
+         ' Password Matched ';
+ }
+}
+ </script>
+
+      
+<form >  
+ 
+<td> Enter Password </td>  
+<input type = "password" id = "pass" value = ""> <br><br>
+<td>Confirm Password </td>  
+<input type = "password" id ="confirm_pass" value = "" onkeyup="validate_password()">   
+<span id = "message" style="color:red"> </span> <br><br>  
+  
+ 
+<input type = "submit" value = "Submit">  
+  
+  
+<button type = "reset" value = "Reset" >Reset</button>  
+</form>  
+
+</body>  
+</html>  

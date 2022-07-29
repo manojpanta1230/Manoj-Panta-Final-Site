@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("images/logo.png");
+    
+  
+    min-height:500px;
+    
+   
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   margin-left:150px;
+   margin-right:150px;
+   margin-top:0px;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    left:600px;
+    margin:20px;
+    max-width: 400px;
+    padding:20px;
+    background-image:url(images/lockscereen.jpg);
+    max-height:550px;
+    border-radius: 20px;
+    
+  }
+  .container h1{
+    font-size:20px;
+    color:black;
+    background-color:#04AA6D;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius:8px;
+    position:relative;
+    top:-10px;
+    text-align: center;
+    opacity:0.7;
+  }
+  .container h1:hover{
+    opacity: 1;
+
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding:15px;
+    margin: 5px 0 22px 0;
+    border:0px;
+    background: #f1f1f1;
+  }
+  
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color:wheat;
+    outline:none;
+  }
+  
+
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.7;
+    margin-top:20px;
+    border-radius:8px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  .btn a{
+    text-decoration: none;
+    text-align: left;
+  }
+  .password ul{
+    list-style-type: none;
+  }
+  .password ul li a{
+    text-decoration:underline ;
+   position: relative;
+   left:-32px;
+   top:-20px;
+   color: yellow;
+  }
+  .password ul li a:hover{
+    color:red;
+  }
+  .remember{
+    position: absolute;
+    top:280px;
+    left:20px;
+    color: yellow;
+  
+  }
+  .btn1{
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.7;
+    margin-top:20px;
+    border-radius:8px;
+  }
+  
+  .btn1:hover {
+    opacity: 1;
+  }
+  .btn1 a{
+    text-decoration: none;
+    text-align: left;
+  }

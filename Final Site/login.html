@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+     function validate() { 
+      if( document.myForm.email.value == "" ) {
+alert( "Please provide your Email!" ); document.myForm.email.focus() ; return false;
+}
+if( document.myForm.psw.value == "" ) {
+alert( "Please provide your password!" ); document.myForm.psw.focus() ; return false;
+}
+
+}
+  </script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="login.css" type="text/css" rel="stylesheet"></head>
+<body>
+<div class="bg-img">
+  <form action="#" class="container" name="myForm">
+    <h1>WELCOME TO LOGIN PAGE</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <div class="password">
+      <ul>
+        <li><a href=#>Forgot your Password</a></li>
+      </ul></div>
+      <div class="remember">
+    <input type="checkbox" name="checkbox" value="Remember me">Remember me
+  </div>
+    <button type="submit" class="btn"><a href="index.html" target="_top"> Login</a></button>
+    <button type="submit" class="btn1"><a href="signup.html" target="_top"> Sign Up</a></button>
+  </form>
+</div>
+
+
+
+</body>
+</html>

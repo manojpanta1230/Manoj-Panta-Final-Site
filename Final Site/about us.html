@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "inline-block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+  </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width" initial-scale="1.0">
+  <link href="aboutus.css" rel="stylesheet" type="text/css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo"></a></div>
+      <div id="table">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about us.html">About us</a></li>
+          <li><a href="contact1.html">Contact us</a></li>
+          <li><a href="our store.html">Our Store</a></li>
+
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+  <hr>
+  <div class="heading"> ABOUT US</div>
+  <hr>
+  <div id="line">
+    <h1>US COMPANY</h1>
+    <p>Machinery companies come in forms as varied as the equipment they manufacture.<br>
+      Just as equipment prices range from thousands to millions of dollars, companies<br>
+      vary from large business conglomerates to highly specialized niche companies. <br>
+      What most have in common is that they generate substantial value from after-sales<br>
+      services.There is no one strategy for machinery companies to generate value from <br>
+      services. The best way to create and maximize value varies according to equipment<br>
+      characteristics, competitive environment, and regulatory conditions. Some companies<br>
+      extract most of their service value from selling spare parts. Others focus on maintenance<br>
+      or diversify into the processes for which their machinery is used. Every day, machinery <br>
+      companies are extending their service portfolios with more innovative and customer-oriented<br>             
+      offers.</p>
+  </div>
+  <div class="second">
+    <h1>UK COMPANY</h1>
+    <p>Machinery companies come in forms as varied as the equipment they manufacture.<br>
+      Just as equipment prices range from thousands to millions of dollars, companies<br>
+      vary from large business conglomerates to highly specialized niche companies. <br>
+      What most have in common is that they generate substantial value from after-sales<br>
+      services.There is no one strategy for machinery companies to generate value from <br>
+      services. The best way to create and maximize value varies according to equipment<br>
+      characteristics, competitive environment, and regulatory conditions. Some companies<br>
+      extract most of their service value from selling spare parts. Others focus on maintenance<br>
+      or diversify into the processes for which their machinery is used. Every day, machinery <br>
+      companies are extending their service portfolios with more innovative and customer-oriented <br>
+      offers.</p>
+  </div>
+  <div class="third">
+    <h1> NEPAL COMPANY</h1>
+    <p>Machinery companies come in forms as varied as the equipment they manufacture.<br>
+      Just as equipment prices range from thousands to millions of dollars, companies<br>
+      vary from large business conglomerates to highly specialized niche companies. <br>
+      What most have in common is that they generate substantial value from after-sales<br>
+      services.There is no one strategy for machinery companies to generate value from <br>
+      services. The best way to create and maximize value varies according to equipment<br>
+      characteristics, competitive environment, and regulatory conditions. Some companies<br>
+      extract most of their service value from selling spare parts. Others focus on maintenance<br>
+      or diversify into the processes for which their machinery is used. Every day, machinery <br>
+      companies are extending their service portfolios with more innovative and customer-oriented <BR>
+        offers.</p>
+  </div>
+<div class="row">
+  <table height="500px" border="1px">
+    <tr>
+      <th>S.N</th>
+      <th> Company Deatails</th>
+      <th> Total Expentiture</th>
+    </tr>
+    <tr>
+      <td> 1</td>
+      <td> Exporting Goods</td>
+      <td> $1233000</td>
+  
+    </tr>
+    <tr>
+      <td>2</td>
+      <td> Salary</td>
+      <td> $12340443</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td> Selling this Year</td>
+      <td> $ 1200000000</td>
+    </tr>
+  </table>
+</div>
+<div class="row1">
+  <table height="500px" border="1px">
+    <tr>
+      <th>S.N</th>
+      <th> Company Deatails</th>
+      <th> Total Expentiture</th>
+    </tr>
+    <tr>
+      <td> 1</td>
+      <td> Exporting Goods</td>
+      <td> $15055150</td>
+  
+    </tr>
+    <tr>
+      <td>2</td>
+      <td> Salary</td>
+      <td> $5555</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td> Selling this Year</td>
+      <td> $ 1200000000</td>
+    </tr>
+  </table>
+</div>
+<div class="row2">
+  <table height="500px" border="1px">
+    <tr>
+      <th>S.N</th>
+      <th> Company Deatails</th>
+      <th> Total Expentiture</th>
+    </tr>
+    <tr>
+      <td> 1</td>
+      <td> Exporting Goods</td>
+      <td> $1233000</td>
+  
+    </tr>
+    <tr>
+      <td>2</td>
+      <td> Salary</td>
+      <td> $12340443</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td> Selling this Year</td>
+      <td> $ 1200000000</td>
+    </tr>
+  </table>
+</div>
+<div id="image"><img src="images/bargraph.jpg"></div>
+<div id="image1"><img src="images/dimensions.jpg"></div>
+<div id="image2"><img src="images/line.jpg"></div>
+<div class="analy"> <p>DATA ANALYSIS OF COMPANY THROUGH BARCHART</p></div>
+<div class="analy1"> <p>DATA ANALYSIS OF COMPANY THROUGH CIRCLE </p></div>
+<div class="analy2"> <p>DATA ANALYSIS OF COMPANY<br> THROUGH DOT</p></div>
+  <footer>
+    <div id="back">
+      <div class="list">
+        <ul>
+          <li> <a href="index.html"> Home</a></li>
+          <li> <a href="gallery.html"> Gallery</a></li>
+          <li> <a href="about us.html"> About Company</a></li>
+          <li> <a href="contact1.html"> Contact us</a></li>
+          <li> <a href="our store.html"> Store</a></li>
+          <li> <a href="#"> Company property</a></li>
+        </ul>
+      </div>
+
+      <div class="para">
+        <p> Follow us </p>
+        <ul>
+          <li><a><img src="images/insta.jpg"></a></li>
+          <li><a><img src="images/facebook.png"></a></li>
+          <li><a><img src="images/linkdein.png"></a></li>
+          <li><a><img src="images/twitter.jpg"></a></li>
+        </ul>
+      </div>
+      <div class="para1">
+        <p> Our Location </p>
+        <ul>
+          <li><a href="images/us map.png"><img src="images/us map.png"></a></li>
+          <li><a href="images/uk map.png"><img src="images/us map.png"></a></li>
+          <li><a href="images/nepal map.png"><img src="images/nepal map.png"></a></li>
+
+        </ul>
+      </div>
+      <div id="border">
+        <h1> Contact us</h1>
+        <p>+977 9856342455(NEPAL)<br>
+          +12340923242524(USA)<br>
+          +342234402134566(UK) </p>
+
+      </div>
+      <div id="call">
+        <p style="color:White"> &copy;Cpoyright Act 2068</p>
+      </div>
+      <div id="last">
+        <p> We are multinational company which provide <br>
+          different types of faciltites.Mans Group of Company has redefined
+          the concept of B2B networking by helping buyers select<br>
+          the right supplier. Our platform is designed to help
+          companies generate leads, shortlist suppliers, request<br>
+          for proposals, and identify global companies.
+          dustrial equipment covers a wide range of categories, from agricultural <br>
+          tractors to mining equipment to oil drilling machinery. In this guide, we’ll<br>
+          be covering details and summaries of the top industrial equipment brokers<br>
+          on Thomasnet.com, as well as the top industrial machinery manufacturers in <br>
+          the U.S., as ranked by Industry Week by their 2016 revenues.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

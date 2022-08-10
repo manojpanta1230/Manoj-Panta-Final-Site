@@ -1,0 +1,268 @@
+*{
+  
+   box-sizing: border-box;
+}
+body{
+   width:100%;
+   height: 1140px;
+   background-image:url(images/back1.jpg);
+   background-position:bottom;
+   background-size:contain;
+   background-attachment:fixed;
+ 
+
+   
+}
+nav{
+   width:2000px;
+   height:160px;
+ background-color: antiquewhite;
+   background-size:contain;
+  
+
+}
+nav .logo img{
+   width:300px;
+   height:180px;
+   position: absolute;
+   top:0px;
+}
+#table{
+  
+   width:100%;
+   height:30px;
+   text-indent:50px;
+   text-align:center;
+   
+
+
+}
+#table ul{
+   list-style-type:none;
+   
+}
+#table ul li{
+   display: inline-block;
+   margin-left:0px;
+   margin-right:px;
+   font-size:25px;
+   position:relative;
+   top:100px;
+   left:320px;
+  
+   
+   
+}
+
+
+#table ul li a{
+   text-decoration:none; /*underline hataucha*/
+    color:black;
+    font-size:30px;
+    font-weight:900;
+    position:relative;
+    right:0px;
+    text-shadow: 1px 1px 2px black, 0 0 10px purple, 0 0 5px yellow;
+   
+   
+}
+#table ul li a:hover{
+  transition-duration: 0.5s;
+   border-bottom:6px solid purple;
+border-radius: 8px;}
+.text h1{
+   font-size: 70px;
+   font-family: 'Times New Roman', Times, serif;
+   color: #fff;
+   text-align: center;
+   margin-left:70px;
+   position: relative;
+   left:400px;
+   top:0px;
+   color:purple;
+   background-color: yellowgreen;
+  width:1200px;
+}
+.text p{
+   color: royalblue;
+   font-size:30px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: left;
+   position:relative;
+   left:800px;
+   top:0px;
+   
+}
+.text h1:hover{
+   background-color:palegreen;
+
+}
+.box button{
+   background-color:mediumpurple;
+   width:180px;
+   height:50px;
+   position:relative;
+   left:1000px;
+   top:10px;
+   border-radius: 8px;
+
+}
+.box button a{
+   font-family: 'Times New Roman', Times, serif;
+   font-size:25px;
+   color:white;
+   text-decoration: none;
+   font-weight: bold;
+   transition: 0.8s;
+
+   
+}
+.box button a:hover{
+   border-bottom:2px solid black;
+   transition:0.3s;
+  ;
+}
+.box button:hover{
+   background-color: #88858f;
+
+}
+.row{
+   min-height:10px;
+   float:left;
+}
+.row img{
+   position: relative;
+   padding-left:150px;
+   top:500px;
+
+}
+.col33{
+   width:33.33%;
+   float:left;
+   padding: auto;
+
+   
+}
+
+
+
+.col100{
+   width:100%;
+}
+
+#recent{
+  color:black;
+  position: relative;
+  top:1050px;
+
+  left:600px;
+  width:100px;
+  height:100px;
+  margin-left: 10px;
+}
+footer{
+  
+   width:2000px;
+   height:500px;
+   text-indent:50px;
+   text-align:center;
+   background-color: grey ;
+   position:relative;
+   top:1000px;
+   opacity:0.7;
+   
+
+   
+   
+
+}
+.list ul{
+   list-style-type:none;
+}
+.list ul li{
+   display:flex;
+   font-size: 20px;
+}
+.list ul li a{
+   text-decoration: none;
+   padding-top:50px;
+   color: white;
+}
+
+.para p{
+   font-size:30px;
+   color: #fff;
+   position: relative;
+   top: -300px;
+   left: 500px;
+
+}
+
+.para ul li{
+   display:inline-block;
+}
+.para ul li a img{
+   width:20px;
+   height:20px;
+   position:relative;
+   top:-320px;
+   left:450px;
+   
+
+
+}
+.para1 p{
+   font-size:30px;
+   color: #fff;
+   position: relative;
+   top: -300px;
+   left: 500px;
+
+}
+
+.para1 ul li{
+   display:inline-block;
+}
+.para1 ul li a img{
+   width:50px;
+   height:50px;
+   position:relative;
+   top:-300px;
+   left:490px;
+   opacity: 0.5;
+   
+
+
+}
+#border{
+   position: relative;
+   top:-720px;
+   left: 480px;
+}
+#border h1{
+   color: white;
+}
+#border p{
+   color:white;
+}
+
+#call p{
+   position: relative;
+   top:-400px;
+}
+#last p{
+   position: relative;
+   top:-800px;
+   color: #fff;
+   left:-50px;
+}
+#hlo{
+   font-size:40px;
+   color:red;
+   position: relative;
+   left:1035px;
+   top:20px;
+}
+#hlo:hover{
+   color:black;
+}

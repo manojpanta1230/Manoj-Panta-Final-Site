@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="signup.css" type="text/css" rel="stylesheet">
+    <title>Sign Up </title>
+    <script>
+      function validate_password(){
+ 
+ var pass = document.getElementById('pass').value;
+ var confirm_pass = document.getElementById('confirm_pass').value;
+ if (pass != confirm_pass) {
+     document.getElementById('message').style.color = 'red';
+     document.getElementById('message').innerHTML
+       = 'Use same password';
+ } 
+ else {
+     document.getElementById('message').style.color = 'green';
+     document.getElementById('message').innerHTML =
+         ' Password Matched ';
+ }
+ 
+      }
+      function validate() { 
+if( document.myForm.name.value == "" ) {
+alert( "Please provide your name!" ); document.myForm.name.focus() ; return false;
+}
+if( document.myForm.email.value == "" ) {
+alert( "Please provide your Email!" ); document.myForm.email.focus() ; return false;
+}
+myForm.close();
+}
+    function thanku(){
+      alert("Thank you for Creating account")
+    }
+
+
+ 
+    </script>
+</head>
+<body>
+
+        <form action="#" style="border:1px solid #ccc" name="myForm" onsubmit="thanku()">
+          <div class="container">
+            <div class="border"></div>
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to be member of our Company.</p>
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Your Full Name" name="name" required>
+          
+  
+        
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter your Email" name="email" required >
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="pass" >
+        
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="confirm_pass" onkeyup="validate_password()">
+            <span id = "message" style="color:red"> </span> <br><br>  
+  
+          
+            <label>
+              <input type="checkbox" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+            
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        
+            <div class="clearfix">
+              <button type="button" class="cancelbtn"><a  href="login.html">Cancel</a></button>
+              <button type="submit" class="signupbtn" onclick="validate()">Sign Up</button></a>
+             
+            </div>
+          </div>
+        </form>
+        
+        </body>
+        </html>
+        
+</body>
+</html>

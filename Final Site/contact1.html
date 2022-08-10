@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+         function validate() { 
+if( document.userreg.name.value == "" ) {
+alert( "Please provide your name!" ); document.userreg.name.focus() ; return false;
+}
+if( document.userreg.email.value == "" ) {
+alert( "Please provide your Email!" ); document.userreg.email.focus() ; return false;
+}}
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width" , initial-scale="1.0">
+    <link href="contact.css" rel="stylesheet" type="text/css">
+    <title>Contact us</title>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo"></a></div>
+            <div id="table">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about us.html">About us</a></li>
+                    <li><a href="contact1.html">Contact us</a></li>
+                    <li><a href="our store.html">Our Store</a></li>
+    
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <hr>
+    <div class="heading">  Contact Us</div>
+    <hr>
+    <div id="cs">
+
+    <form action="#" method="POST" name="userreg" enctype="multipart/form-data">
+        <div id="first"><h1>Request Info</h1></div><hr><br>
+        <div> To send us a message please complete the form below .</div>
+
+        <table border="0" cellpadding="5" cellspacing="5" width="80%" align="center">
+        
+            <tr>
+                <td style="color:white;font-weight:bold;"> Name</td>
+                <td>
+                    <input type="text" name="name" placeholder="Full name" required />
+
+                </td>
+            </tr>
+            <tr>
+                <td style="color:white;font-weight:bold;"> Email</td>
+                <td > <input type="email" name="email" placeholder="domain@example.com" requried /></td>
+
+            </tr>
+            
+            <tr>
+                <td style="color:white;font-weight:bold;">Gender</td>
+                <td>
+                    <input type="radio" name="Gender" value="M" checked />Male
+                    <input type="radio" name="Gender" value="F" />Female
+                    <input type="radio" name="Gender" value="O" /> others
+
+                </td>
+            </tr>
+
+           
+            </tr>
+            <tr>
+                <td style="color:white;font-weight:bold;"> Photo</td>
+                <td> <input type="file" name="upload" /> </td>
+            </tr>
+            <tr>
+                <td style="color:white;font-weight:bold;">Dob</td>
+                <td> <input type="date" name="dob" /> </td>
+            </tr>
+            <tr>
+                <td style="color:white;font-weight:bold;"> Country</td>
+                <td>
+                    <select name="country" size="1">
+                        <option value="NP"> Nepal </option>
+                        <option value="ID"> India</option>
+                        <option value="CN"> China </option>
+                        <option value="PK"> Pakistan</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="color:white;font-weight:bold;"> Message</td>
+                <td> <textarea rows="5" cols="50" name="Message" placeholder="Write comment about our Company"></textarea></td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                    <input type="submit" name="submit" value="Submit" onclick="validate()"  />
+                    <input type="reset" name="reset" value="Reset" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+            
+            </tr>
+        </table>
+    
+
+
+    </form>
+    <div id="long">
+        <img src="images/tbc.jpg" width="400px" height="150px">
+        <h1 style="color: blue;"> Postal Address</h1>
+        <p style="color:black;font-weight:bold"> Mans group of Company<br>
+            47 W 13th St, New York, NY 10011, USA</p>
+            <p style="color:black;font-weight:bold"> Cont.no.+123398474634757</p>
+            <p style="color:black;font-weight:bold"> Email:mansgoc@org.us</p>
+            <p style="color:black;font-weight:bold">In case of urgency, please feel free to contact us
+
+            </p>
+            <h1 style="color:BLUE;">Sub Branch</h1>
+            <p style="color:black;font-weight:bold"> Nepal <hr></p>
+            <p style="color:black;font-weight:bold"> Satdobato ,Lalitpur</p>
+            <p style="color:black;font-weight:bold"> Contact:+977 9823424432</p>
+            <p style="color:black;font-weight:bold"> UK <hr></p>
+            <p style="color:black;font-weight:bold">Manchaster</p>
+            <p style="color:black;font-weight:bold"> Contact:+23239823424432</p>
+    </div>
+    <div id="three">
+        <br><br><br><br><br><br><br><br><br><br>
+        <p style="color:white; font-weight:bold;">Name:Mansu Albert Robert</p>
+        <p style="color:white; font-weight:bold;"> CEO OF MAIN COMPANY</p>
+        <p style="color:white; font-weight:bold;"> Email:robman@gmail.com  </p>
+    </div>
+    <div id="three1">
+        <br><br><br><br><br><br><br><br><br><br>
+        <p style="color:white; font-weight:bold;">Name:Sima Urg Robert</p>
+        <p style="color:white; font-weight:bold;"> UK Company CEO</p>
+        <p style="color:white; font-weight:bold;"> Email:sima@gmail.com  </p>
+    </div>
+    <div id="three2">
+        <br><br><br><br><br><br><br><br><br><br>
+        <p style="color:white; font-weight:bold;">Name:Mansi YORK Subba</p>
+        <p style="color:white; font-weight:bold;"> Nepal Company CEO</p>
+        <p style="color:white; font-weight:bold;"> Email:mansi@gmail.com  </p>
+    </div>
+    <div id="video">
+        <video width="1500" height="800" controls autoplay>
+           
+            <source src="images/video.mp4" type="video/mp4">
+            
+            Your browser does not support the video tag.
+          </video>
+          <div id="last1">CEO of Company<br>
+          Mansu Albert Robert </div>
+    </div>
+    <footer>
+        <div id="back">
+            <div class="list">
+                <ul>
+                    <li> <a href="index.html"> Home</a></li>
+                    <li> <a href="gallery.html"> Gallery</a></li>
+                    <li> <a href="about us.html"> About Company</a></li>
+                    <li> <a href="contact1.html"> Contact us</a></li>
+                    <li> <a href="our store.html"> Store</a></li>
+                    <li> <a href="#"> Style</a></li>
+                </ul>
+            </div>
+            
+            <div class="para">
+                <p> Follow us </p>
+                <ul>
+                    <li><a><img src="images/insta.jpg"  alt="instalogo "></a></li>
+                    <li><a><img src="images/facebook.png" alt="facebooklogo "></a></li>
+                    <li><a><img src="images/linkdein.png"alt="facebook logo "></a></li>
+                    <li><a><img src="images/twitter.jpg"alt="facebook logo "></a></li>
+                </ul>
+            </div>
+            <div class="para1">
+                <p> Our Location </p>
+                <ul>
+                    <li><a href="images/us map.png"><img src="images/us map.png"alt="map of us"></a></li>
+                    <li><a href="images/uk map.png"><img src="images/us map.png" alt="map of UK"></a></li>
+                    <li><a href="images/nepal map.png"><img src="images/nepal map.png"alt="map of Nepal"></a></li>
+                    
+                </ul>
+            </div>
+            <div id="border">
+                <h1> Contact us</h1>
+                <p>+977 9856342455(NEPAL)<br>
+                +12340923242524(USA)<br>
+              +342234402134566(UK)    </p>
+    
+            </div>
+    <div id="call">
+            <p style="color:White"> &copy;Cpoyright Act 2068</p>
+        </div>
+        <div id="last">
+            <p> We are  multinational company  which provide <br>
+            different types of faciltites.Mans Group of Company  has redefined
+             the concept of B2B networking by helping buyers select<br>
+              the right supplier. Our platform is designed to help 
+              companies generate leads, shortlist suppliers, request<br>
+               for proposals, and identify global companies.
+               dustrial equipment covers a wide range of categories, from agricultural <br>
+               tractors to mining equipment to oil drilling machinery. In this guide, we’ll<br>
+                be covering details and summaries of the top industrial equipment brokers<br>
+                 on Thomasnet.com, as well as the top industrial machinery manufacturers in <br>
+                 the U.S., as ranked by Industry Week by their 2016 revenues.</p>
+        </div>
+        </div>
+       </footer>
+   
+</body>
+
+</html>
